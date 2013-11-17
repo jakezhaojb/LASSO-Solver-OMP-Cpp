@@ -329,7 +329,7 @@ Matrix Matrix::m_abs(){
 }
 
 double Matrix::max_vec(int &l){
-	//This function is used to search for the maximum one in a 1-row or 1-colomu matrix
+	//This function is used to search the maximum element in a 1-row or 1-colomn matrix
 	l = 0;
 	double maxval = data[0][0];
 	if(rows == 1){
