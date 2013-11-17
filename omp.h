@@ -14,13 +14,13 @@ Usage:
 
 Input:
 	sols			  solution of OMP.
-	y				  vector of length n.
-	Dictionary        An explicit nxN matrix, as a dictionary.
-    nSolver           length of solution vector. 
+	y		          vector of length n.
+	Dictionary        	  An explicit nxN matrix, as a dictionary.
+        nSolver           	  length of solution vector. 
 	nMaxIters		  maximum number of iterations to perform. 
-    lambdaStop		  If specified, the algorithm stops when the last coefficient 
-					  entered has residual correlation <= lambdaStop. 
-	OptTolerance      Error tolerance, default 1e-5
+        lambdaStop		  If specified, the algorithm stops when the last coefficient 
+			   	  entered has residual correlation <= lambdaStop. 
+	OptTolerance      	  Error tolerance, default 1e-5
 *****************************************************************************/
 
 bool solveOMP(vector<double> &sols,
