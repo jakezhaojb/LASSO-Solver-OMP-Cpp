@@ -160,4 +160,3 @@ Matrix linsolve(Matrix A, Matrix b){
 
 	return res;
 }
-
